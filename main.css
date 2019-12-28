@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .container {
+    width: 100%;
+    height: 100%
+}
+
+.container {
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options-container {
+    position: absolute;
+    top: 0;
+    transform: translateY(50px);
+}
+/* 
+.options {
+} */
+
+.matrix {
+    /* background: deeppink; */
+    /* max-width: 296px; */
+    max-width: 900px;
+}
+
+.start {
+    position: absolute;
+    transform: translate(-17.5px, -235px);
+}
+
+.goal {
+    position: absolute;
+    transform: translate(-18px, 230px);
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    background: #aaa;
+    display: inline-block;
+    margin-right: 5px;
+    transition: background 250ms ease-in-out;
+    border-radius: 3px;
+}
+
+.cell:hover {
+    background: #888;
+}

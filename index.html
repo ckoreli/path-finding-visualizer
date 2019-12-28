@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Path finder</title>
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="./setup.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="options-container">
+            <div class="options">
+                <select name="algo">
+                    <option value="bfs">BFS</option>
+                    <option value="dfs">DFS</option>
+                    <option value="dijkstra">Dijkstra</option>
+                </select>
+                <button class="run">Run</button>
+                <button class="reset">Reset</button>
+                <button class="refresh">Refresh</button>
+            </div>
+        </div>
+        <div class="start cell"></div>
+        <div class="matrix-container">
+            <div class="matrix"></div>
+        </div>
+        <div class="goal cell"></div>
+    </div>
+</body>
+</html>
