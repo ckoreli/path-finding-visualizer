@@ -11,12 +11,6 @@ const active = "#000";
 const inactive = "#aaa";
 const visited = "#330066";
 
-function wait() {
-    let time = 0;
-    console.log("usao?");
-    while (time < 10000000) time++;
-}
-
 class Cell {
     constructor () {
         this.self = document.createElement("div");

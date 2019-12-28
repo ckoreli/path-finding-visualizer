@@ -1,5 +1,5 @@
 # path-finding-visualizer
-Online visualizer for path finding algorithms
+Online visualizer for path finding algorithms.
 Clicking on a cell marks it as a wall/ open space and colors it black/ grey.
 Purple cells represent the path the algorithm took to get to the exit node.
 
